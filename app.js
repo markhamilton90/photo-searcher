@@ -1,6 +1,6 @@
 
 angular.module('PhotoSearch', [])
-	.controller('searchCtrl', function($scope, $http, $q, $timeout) {
+	.controller('searchCtrl', function($scope, $http, $timeout) {
 
 		$scope.flickr = function(query) {
 

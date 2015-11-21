@@ -29,7 +29,7 @@
 		</div>
 	</section>
 	<section class="image-gallery">
-		<div ng-repeat="photo in photos">
+		<div class="animate" ng-repeat="photo in photos">
 			<a href="{{ photo.link }}">
 				<img ng-src="{{ photo.media.m }}" alt="Picture of {{ query }}">
 			</a>
